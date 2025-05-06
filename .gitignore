@@ -114,3 +114,7 @@ dmypy.json
 # jupyterlite
 *.doit.db
 _output
+
+.venv
+.idea/
+**/.claude/settings.local.json
