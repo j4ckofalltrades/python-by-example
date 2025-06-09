@@ -2,7 +2,7 @@
 name = "python-by-example"
 version = "0.1.0"
 description = "Python by Example"
-requires-python = "3.13"
+requires-python = "==3.13"
 dependencies = [
     "jupyterlite-core==0.5.1",
     "jupyterlab==4.4.1",
@@ -10,6 +10,5 @@ dependencies = [
     "jupyterlite-pyodide-kernel==0.5.2",
     "jupyterlite-javascript-kernel==0.3.0",
     "jupyterlab-tour==4.0.1",
-    "jupyterlab-night==0.5.1",
-    "jupyterlab_rise==0.43.1",
+    "jupyterlab-night==0.5.1"
 ]
