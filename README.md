@@ -1,63 +1,50 @@
-# Python cookbook
+# Python by Example
 
-[![lite-badge](https://jupyterlite.rtfd.io/en/latest/_static/badge.svg)](https://jupyterlite.github.io/demo)
+## Try it in your browser: [![lite-badge](https://jupyterlite.rtfd.io/en/latest/_static/badge.svg)](https://jduabe.dev/python-by-example)
 
-JupyterLite deployed as a static site to GitHub Pages, for demo purposes.
+An interactive site that teaches Python to beginners using annotated and runnable code examples, powered by [JupyterLite](https://jupyterlite.readthedocs.io/en/stable/).
 
-## ✨ Try it in your browser ✨
+## Contents
 
-➡️ **https://jupyterlite.github.io/demo**
+- Intro
+- Types, Variables, User input
+- Functions
+- Conditionals
+- Lists
+- Dictionaries
+- Loops
+- IO
+- Classes
+- List comprehensions
 
-![github-pages](https://user-images.githubusercontent.com/591645/120649478-18258400-c47d-11eb-80e5-185e52ff2702.gif)
+## Running locally with uv
 
-## Requirements
+Follow these steps to set up and run the project locally:
 
-JupyterLite is being tested against modern web browsers:
+1. Create a virtual environment and install dependencies:
 
-- Firefox 90+
-- Chromium 89+
-
-## Running Locally with uv
-
-This project uses [uv](https://github.com/astral-sh/uv) for Python package management. Follow these steps to set up and run the project locally:
-
-1. Install uv (if not already installed):
-   ```bash
-   pip install uv
-   ```
-
-2. Create a virtual environment and install dependencies:
    ```bash
    # Create and activate a virtual environment
    uv venv
    source .venv/bin/activate  # On Windows: .venv\Scripts\activate
    
    # Install dependencies
-   uv pip install -r requirements.txt
+   uv sync
    ```
 
-3. Build the JupyterLite site:
+2. Build the JupyterLite site:
+
    ```bash
    jupyter lite build --contents content
    ```
 
-4. Serve the site locally:
+3. Serve the site locally:
+
    ```bash
    jupyter lite serve
    ```
 
-5. Open your browser and navigate to http://localhost:8000 to view the site.
-
-## Deploy your JupyterLite website on GitHub Pages
-
-Check out the guide on the JupyterLite documentation: https://jupyterlite.readthedocs.io/en/latest/quickstart/deploy.html
-
-## Further Information and Updates
-
-For more info, keep an eye on the JupyterLite documentation:
-
-- How-to Guides: https://jupyterlite.readthedocs.io/en/latest/howto/index.html
-- Reference: https://jupyterlite.readthedocs.io/en/latest/reference/index.html
+4. Open your browser and navigate to http://localhost:8000 to view the site.
 
 ## License
 
