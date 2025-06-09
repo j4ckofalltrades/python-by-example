@@ -1,5 +1,8 @@
 # Python by Example
 
+> [!WARNING]
+> Work in progress
+
 ## Try it in your browser: [![lite-badge](https://jupyterlite.rtfd.io/en/latest/_static/badge.svg)](https://jduabe.dev/python-by-example)
 
 An interactive site that teaches Python to beginners using annotated and runnable code examples, powered by [JupyterLite](https://jupyterlite.readthedocs.io/en/stable/).
