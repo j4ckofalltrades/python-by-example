@@ -2,7 +2,7 @@
 name = "python-by-example"
 version = "0.1.0"
 description = "Python by Example"
-requires-python = "==3.13"
+requires-python = "==3.13.*"
 dependencies = [
     "jupyterlite-core==0.5.1",
     "jupyterlab==4.4.1",
