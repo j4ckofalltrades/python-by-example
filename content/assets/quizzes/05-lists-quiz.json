@@ -1,0 +1,122 @@
+[
+  {
+    "question": "How do you access the first element of a list called my_list?",
+    "type": "many_choice",
+    "answers": [
+      {
+        "answer": "my_list[1]",
+        "correct": false,
+        "feedback": "Incorrect. Python uses zero-based indexing, so the first element is my_list[0]."
+      },
+      {
+        "answer": "my_list[0]",
+        "correct": true,
+        "feedback": "Correct! Python lists use zero-based indexing, so the first element is at index 0."
+      },
+      {
+        "answer": "my_list.first()",
+        "correct": false,
+        "feedback": "Incorrect. Python uses zero-based indexing, so the first element is my_list[0]."
+      },
+      {
+        "answer": "my_list[-1]",
+        "correct": false,
+        "feedback": "Incorrect. Python uses zero-based indexing, so the first element is my_list[0]."
+      }
+    ]
+  },
+  {
+    "question": "What does my_list[-1] return?",
+    "type": "many_choice",
+    "answers": [
+      {
+        "answer": "The first element",
+        "correct": false,
+        "feedback": "Incorrect. Negative indices count from the end, so -1 gives you the last element."
+      },
+      {
+        "answer": "The last element",
+        "correct": true,
+        "feedback": "Correct! Negative indices count from the end, so -1 is the last element."
+      },
+      {
+        "answer": "An error",
+        "correct": false,
+        "feedback": "Incorrect. Negative indices count from the end, so -1 gives you the last element."
+      },
+      {
+        "answer": "None",
+        "correct": false,
+        "feedback": "Incorrect. Negative indices count from the end, so -1 gives you the last element."
+      }
+    ]
+  },
+  {
+    "question": "Which method adds an element to the end of a list?",
+    "type": "many_choice",
+    "answers": [
+      {
+        "answer": "add()",
+        "correct": false,
+        "feedback": "Incorrect. Use append() to add an element to the end of a list."
+      },
+      {
+        "answer": "append()",
+        "correct": true,
+        "feedback": "Correct! The append() method adds an element to the end of a list."
+      },
+      {
+        "answer": "insert()",
+        "correct": false,
+        "feedback": "Incorrect. Use append() to add an element to the end of a list."
+      },
+      {
+        "answer": "push()",
+        "correct": false,
+        "feedback": "Incorrect. Use append() to add an element to the end of a list."
+      }
+    ]
+  },
+  {
+    "question": "What does list[1:3] return for list = [0, 1, 2, 3, 4]?",
+    "type": "many_choice",
+    "answers": [
+      {
+        "answer": "[0, 1, 2]",
+        "correct": false,
+        "feedback": "Incorrect. list[1:3] includes index 1 and 2, but not 3, so it returns [1, 2]."
+      },
+      {
+        "answer": "[1, 2]",
+        "correct": true,
+        "feedback": "Correct! Slicing includes the start index but excludes the end index."
+      },
+      {
+        "answer": "[1, 2, 3]",
+        "correct": false,
+        "feedback": "Incorrect. list[1:3] includes index 1 and 2, but not 3, so it returns [1, 2]."
+      },
+      {
+        "answer": "[2, 3]",
+        "correct": false,
+        "feedback": "Incorrect. list[1:3] includes index 1 and 2, but not 3, so it returns [1, 2]."
+      }
+    ]
+  },
+  {
+    "question": "True or False: Lists in Python can contain different data types.",
+    "type": "many_choice",
+    "answers": [
+      {
+        "answer": "True",
+        "correct": true,
+        "feedback": "Correct! Python lists can contain elements of different data types."
+      },
+      {
+        "answer": "False",
+        "correct": false,
+        "feedback": "Incorrect. Python lists can contain elements of different data types in the same list."
+      }
+    ]
+  }
+]

@@ -1,0 +1,132 @@
+[
+  {
+    "question": "Which of these is an integer in Python?",
+    "type": "many_choice",
+    "answers": [
+      {
+        "answer": "42",
+        "correct": true,
+        "feedback": "Correct! 42 is an integer (whole number)."
+      },
+      {
+        "answer": "3.14",
+        "correct": false,
+        "feedback": "Incorrect. 42 is the integer - it's a whole number without decimal places."
+      },
+      {
+        "answer": "\"Hello\"",
+        "correct": false,
+        "feedback": "Incorrect. 42 is the integer - it's a whole number without decimal places."
+      },
+      {
+        "answer": "True",
+        "correct": false,
+        "feedback": "Incorrect. 42 is the integer - it's a whole number without decimal places."
+      }
+    ]
+  },
+  {
+    "question": "What type of data is 3.14?",
+    "type": "many_choice",
+    "answers": [
+      {
+        "answer": "int",
+        "correct": false,
+        "feedback": "Incorrect. 3.14 is a float because it has decimal places."
+      },
+      {
+        "answer": "float",
+        "correct": true,
+        "feedback": "Correct! 3.14 is a float (floating-point number with decimal places)."
+      },
+      {
+        "answer": "str",
+        "correct": false,
+        "feedback": "Incorrect. 3.14 is a float because it has decimal places."
+      },
+      {
+        "answer": "bool",
+        "correct": false,
+        "feedback": "Incorrect. 3.14 is a float because it has decimal places."
+      }
+    ]
+  },
+  {
+    "question": "How do you create an f-string in Python?",
+    "type": "many_choice",
+    "answers": [
+      {
+        "answer": "f\"Hello {name}\"",
+        "correct": true,
+        "feedback": "Correct! f-strings start with 'f' before the quotes and use {} for variables."
+      },
+      {
+        "answer": "\"Hello {name}\"",
+        "correct": false,
+        "feedback": "Incorrect. f-strings require an 'f' before the quotes: f\"Hello {name}\""
+      },
+      {
+        "answer": "format(\"Hello {name}\")",
+        "correct": false,
+        "feedback": "Incorrect. f-strings require an 'f' before the quotes: f\"Hello {name}\""
+      },
+      {
+        "answer": "str(\"Hello {name}\")",
+        "correct": false,
+        "feedback": "Incorrect. f-strings require an 'f' before the quotes: f\"Hello {name}\""
+      }
+    ]
+  },
+  {
+    "question": "What does the input() function return?",
+    "type": "many_choice",
+    "answers": [
+      {
+        "answer": "An integer",
+        "correct": false,
+        "feedback": "Incorrect. The input() function always returns a string type."
+      },
+      {
+        "answer": "A float",
+        "correct": false,
+        "feedback": "Incorrect. The input() function always returns a string type."
+      },
+      {
+        "answer": "A string",
+        "correct": true,
+        "feedback": "Correct! The input() function always returns a string, even if the user enters numbers."
+      },
+      {
+        "answer": "A boolean",
+        "correct": false,
+        "feedback": "Incorrect. The input() function always returns a string type."
+      }
+    ]
+  },
+  {
+    "question": "What is the value of None used for in Python?",
+    "type": "many_choice",
+    "answers": [
+      {
+        "answer": "To represent the absence of a value",
+        "correct": true,
+        "feedback": "Correct! None represents the absence of a value."
+      },
+      {
+        "answer": "To represent zero",
+        "correct": false,
+        "feedback": "Incorrect. None represents the absence of a value, not zero."
+      },
+      {
+        "answer": "To represent an empty string",
+        "correct": false,
+        "feedback": "Incorrect. None represents the absence of a value, not an empty string."
+      },
+      {
+        "answer": "To represent False",
+        "correct": false,
+        "feedback": "Incorrect. None represents the absence of a value, not False."
+      }
+    ]
+  }
+]

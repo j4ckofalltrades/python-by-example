@@ -1,0 +1,111 @@
+[
+  {
+    "question": "What symbol is used to write comments in Python?",
+    "type": "many_choice",
+    "answers": [
+      {
+        "answer": "//",
+        "correct": false,
+        "feedback": "Incorrect. In Python, comments start with the # symbol."
+      },
+      {
+        "answer": "#",
+        "correct": true,
+        "feedback": "Correct! The # symbol is used for comments in Python."
+      },
+      {
+        "answer": "/*",
+        "correct": false,
+        "feedback": "Incorrect. In Python, comments start with the # symbol."
+      },
+      {
+        "answer": "--",
+        "correct": false,
+        "feedback": "Incorrect. In Python, comments start with the # symbol."
+      }
+    ]
+  },
+  {
+    "question": "Which function is used to display output in Python?",
+    "type": "many_choice",
+    "answers": [
+      {
+        "answer": "echo()",
+        "correct": false,
+        "feedback": "Incorrect. The print() function is used to display output in Python."
+      },
+      {
+        "answer": "display()",
+        "correct": false,
+        "feedback": "Incorrect. The print() function is used to display output in Python."
+      },
+      {
+        "answer": "print()",
+        "correct": true,
+        "feedback": "Correct! The print() function displays output in Python."
+      },
+      {
+        "answer": "show()",
+        "correct": false,
+        "feedback": "Incorrect. The print() function is used to display output in Python."
+      }
+    ]
+  },
+  {
+    "question": "What is the recommended naming convention for Python variables according to PEP 8?",
+    "type": "many_choice",
+    "answers": [
+      {
+        "answer": "camelCase",
+        "correct": false,
+        "feedback": "Incorrect. PEP 8 recommends snake_case (lowercase with underscores) for variables."
+      },
+      {
+        "answer": "PascalCase",
+        "correct": false,
+        "feedback": "Incorrect. PEP 8 recommends snake_case (lowercase with underscores) for variables."
+      },
+      {
+        "answer": "snake_case",
+        "correct": true,
+        "feedback": "Correct! PEP 8 recommends snake_case for variables and functions."
+      },
+      {
+        "answer": "kebab-case",
+        "correct": false,
+        "feedback": "Incorrect. PEP 8 recommends snake_case (lowercase with underscores) for variables."
+      }
+    ]
+  },
+  {
+    "question": "True or False: Python is case-sensitive",
+    "type": "many_choice",
+    "answers": [
+      {
+        "answer": "True",
+        "correct": true,
+        "feedback": "Correct! Python is case-sensitive, so 'Print' and 'print' are different."
+      },
+      {
+        "answer": "False",
+        "correct": false,
+        "feedback": "Incorrect. Python is case-sensitive - 'Print' and 'print' are treated as different."
+      }
+    ]
+  },
+  {
+    "question": "What keyword is used to create a function in Python?",
+    "type": "text",
+    "answers": [
+      {
+        "answer": "def",
+        "correct": true,
+        "feedback": "Correct! The 'def' keyword is used to define functions in Python."
+      },
+      {
+        "type": "default",
+        "feedback": "Incorrect. The 'def' keyword is used to create functions in Python."
+      }
+    ]
+  }
+]

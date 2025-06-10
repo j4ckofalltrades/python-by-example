@@ -1,0 +1,132 @@
+[
+  {
+    "question": "What is the result of True and False?",
+    "type": "many_choice",
+    "answers": [
+      {
+        "answer": "True",
+        "correct": false,
+        "feedback": "Incorrect. True and False equals False because 'and' requires both to be True."
+      },
+      {
+        "answer": "False",
+        "correct": true,
+        "feedback": "Correct! The 'and' operator returns True only when both operands are True."
+      },
+      {
+        "answer": "None",
+        "correct": false,
+        "feedback": "Incorrect. True and False equals False because 'and' requires both to be True."
+      },
+      {
+        "answer": "Error",
+        "correct": false,
+        "feedback": "Incorrect. True and False equals False because 'and' requires both to be True."
+      }
+    ]
+  },
+  {
+    "question": "Which operator is used to check if two values are equal?",
+    "type": "many_choice",
+    "answers": [
+      {
+        "answer": "=",
+        "correct": false,
+        "feedback": "Incorrect. Use == to check if two values are equal (= is for assignment)."
+      },
+      {
+        "answer": "==",
+        "correct": true,
+        "feedback": "Correct! The == operator checks for equality in Python."
+      },
+      {
+        "answer": "!=",
+        "correct": false,
+        "feedback": "Incorrect. Use == to check if two values are equal (= is for assignment)."
+      },
+      {
+        "answer": "===",
+        "correct": false,
+        "feedback": "Incorrect. Use == to check if two values are equal (= is for assignment)."
+      }
+    ]
+  },
+  {
+    "question": "What does bool([]) return?",
+    "type": "many_choice",
+    "answers": [
+      {
+        "answer": "True",
+        "correct": false,
+        "feedback": "Incorrect. Empty collections like [] are falsy, so bool([]) returns False."
+      },
+      {
+        "answer": "False",
+        "correct": true,
+        "feedback": "Correct! An empty list is considered falsy in Python."
+      },
+      {
+        "answer": "None",
+        "correct": false,
+        "feedback": "Incorrect. Empty collections like [] are falsy, so bool([]) returns False."
+      },
+      {
+        "answer": "Error",
+        "correct": false,
+        "feedback": "Incorrect. Empty collections like [] are falsy, so bool([]) returns False."
+      }
+    ]
+  },
+  {
+    "question": "Complete this code: if x > 5: print('big') ____ x < 5: print('small')",
+    "type": "many_choice",
+    "answers": [
+      {
+        "answer": "elif",
+        "correct": true,
+        "feedback": "Correct! 'elif' is used for additional conditions after 'if'."
+      },
+      {
+        "answer": "else if",
+        "correct": false,
+        "feedback": "Incorrect. Use 'elif' for additional conditions in an if statement."
+      },
+      {
+        "answer": "elseif",
+        "correct": false,
+        "feedback": "Incorrect. Use 'elif' for additional conditions in an if statement."
+      },
+      {
+        "answer": "if",
+        "correct": false,
+        "feedback": "Incorrect. Use 'elif' for additional conditions in an if statement."
+      }
+    ]
+  },
+  {
+    "question": "Which of these values is truthy?",
+    "type": "many_choice",
+    "answers": [
+      {
+        "answer": "0",
+        "correct": false,
+        "feedback": "Incorrect. [1] is truthy because it's a non-empty list. The others are all falsy."
+      },
+      {
+        "answer": "\"\"",
+        "correct": false,
+        "feedback": "Incorrect. [1] is truthy because it's a non-empty list. The others are all falsy."
+      },
+      {
+        "answer": "[1]",
+        "correct": true,
+        "feedback": "Correct! A list with elements is truthy, even if it contains only one item."
+      },
+      {
+        "answer": "None",
+        "correct": false,
+        "feedback": "Incorrect. [1] is truthy because it's a non-empty list. The others are all falsy."
+      }
+    ]
+  }
+]

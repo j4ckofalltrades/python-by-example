@@ -1,0 +1,132 @@
+[
+  {
+    "question": "How do you create an empty dictionary in Python?",
+    "type": "many_choice",
+    "answers": [
+      {
+        "answer": "[]",
+        "correct": false,
+        "feedback": "Incorrect. Use {} or dict() to create an empty dictionary."
+      },
+      {
+        "answer": "{}",
+        "correct": true,
+        "feedback": "Correct! Empty curly braces {} create an empty dictionary."
+      },
+      {
+        "answer": "()",
+        "correct": false,
+        "feedback": "Incorrect. Use {} or dict() to create an empty dictionary."
+      },
+      {
+        "answer": "dict()",
+        "correct": true,
+        "feedback": "Also correct! The dict() constructor creates an empty dictionary, but {} is more common."
+      }
+    ]
+  },
+  {
+    "question": "Which of these can be used as dictionary keys?",
+    "type": "many_choice",
+    "answers": [
+      {
+        "answer": "Strings",
+        "correct": true,
+        "feedback": "Correct! Strings are immutable and can be used as dictionary keys."
+      },
+      {
+        "answer": "Lists",
+        "correct": false,
+        "feedback": "Incorrect. Dictionary keys must be immutable types like strings, integers, or tuples."
+      },
+      {
+        "answer": "Integers",
+        "correct": true,
+        "feedback": "Also correct! Integers are immutable and can be used as dictionary keys."
+      },
+      {
+        "answer": "Tuples",
+        "correct": true,
+        "feedback": "Also correct! Tuples are immutable and can be used as dictionary keys."
+      }
+    ]
+  },
+  {
+    "question": "What happens when you try to access a non-existing key with dict[key]?",
+    "type": "many_choice",
+    "answers": [
+      {
+        "answer": "Returns None",
+        "correct": false,
+        "feedback": "Incorrect. Accessing a non-existing key with [] raises a KeyError."
+      },
+      {
+        "answer": "Returns empty string",
+        "correct": false,
+        "feedback": "Incorrect. Accessing a non-existing key with [] raises a KeyError."
+      },
+      {
+        "answer": "Raises KeyError",
+        "correct": true,
+        "feedback": "Correct! Accessing a non-existing key raises a KeyError."
+      },
+      {
+        "answer": "Returns 0",
+        "correct": false,
+        "feedback": "Incorrect. Accessing a non-existing key with [] raises a KeyError."
+      }
+    ]
+  },
+  {
+    "question": "Which method safely gets a value from a dictionary without raising an error?",
+    "type": "many_choice",
+    "answers": [
+      {
+        "answer": "get()",
+        "correct": true,
+        "feedback": "Correct! The get() method returns None if the key doesn't exist."
+      },
+      {
+        "answer": "find()",
+        "correct": false,
+        "feedback": "Incorrect. Use the get() method to safely access dictionary values."
+      },
+      {
+        "answer": "search()",
+        "correct": false,
+        "feedback": "Incorrect. Use the get() method to safely access dictionary values."
+      },
+      {
+        "answer": "retrieve()",
+        "correct": false,
+        "feedback": "Incorrect. Use the get() method to safely access dictionary values."
+      }
+    ]
+  },
+  {
+    "question": "What does dict.items() return?",
+    "type": "many_choice",
+    "answers": [
+      {
+        "answer": "Only keys",
+        "correct": false,
+        "feedback": "Incorrect. dict.items() returns key-value pairs for iteration."
+      },
+      {
+        "answer": "Only values",
+        "correct": false,
+        "feedback": "Incorrect. dict.items() returns key-value pairs for iteration."
+      },
+      {
+        "answer": "Key-value pairs",
+        "correct": true,
+        "feedback": "Correct! dict.items() returns key-value pairs that you can iterate over."
+      },
+      {
+        "answer": "Dictionary length",
+        "correct": false,
+        "feedback": "Incorrect. dict.items() returns key-value pairs for iteration."
+      }
+    ]
+  }
+]

@@ -1,0 +1,132 @@
+[
+  {
+    "question": "What does the 'w' mode do when opening a file?",
+    "type": "many_choice",
+    "answers": [
+      {
+        "answer": "Read the file",
+        "correct": false,
+        "feedback": "Incorrect. The 'w' mode opens a file for writing and will overwrite existing content."
+      },
+      {
+        "answer": "Write to the file (overwrite)",
+        "correct": true,
+        "feedback": "Correct! The 'w' mode opens a file for writing and overwrites existing content."
+      },
+      {
+        "answer": "Append to the file",
+        "correct": false,
+        "feedback": "Incorrect. The 'w' mode opens a file for writing and will overwrite existing content."
+      },
+      {
+        "answer": "Create a backup",
+        "correct": false,
+        "feedback": "Incorrect. The 'w' mode opens a file for writing and will overwrite existing content."
+      }
+    ]
+  },
+  {
+    "question": "What keyword is recommended for opening files in Python?",
+    "type": "many_choice",
+    "answers": [
+      {
+        "answer": "with",
+        "correct": true,
+        "feedback": "Correct! The 'with' statement ensures files are properly closed after use."
+      },
+      {
+        "answer": "open",
+        "correct": false,
+        "feedback": "Incorrect. Use 'with' statement to ensure files are properly closed after use."
+      },
+      {
+        "answer": "file",
+        "correct": false,
+        "feedback": "Incorrect. Use 'with' statement to ensure files are properly closed after use."
+      },
+      {
+        "answer": "read",
+        "correct": false,
+        "feedback": "Incorrect. Use 'with' statement to ensure files are properly closed after use."
+      }
+    ]
+  },
+  {
+    "question": "What does CSV stand for?",
+    "type": "many_choice",
+    "answers": [
+      {
+        "answer": "Computer System Values",
+        "correct": false,
+        "feedback": "Incorrect. CSV stands for Comma-Separated Values."
+      },
+      {
+        "answer": "Comma-Separated Values",
+        "correct": true,
+        "feedback": "Correct! CSV stands for Comma-Separated Values, a common data format."
+      },
+      {
+        "answer": "Cascading Style Values",
+        "correct": false,
+        "feedback": "Incorrect. CSV stands for Comma-Separated Values."
+      },
+      {
+        "answer": "Character String Variables",
+        "correct": false,
+        "feedback": "Incorrect. CSV stands for Comma-Separated Values."
+      }
+    ]
+  },
+  {
+    "question": "Which CSV class automatically maps row data to dictionary keys?",
+    "type": "many_choice",
+    "answers": [
+      {
+        "answer": "csv.reader",
+        "correct": false,
+        "feedback": "Incorrect. csv.DictReader maps each row to a dictionary using column headers as keys."
+      },
+      {
+        "answer": "csv.DictReader",
+        "correct": true,
+        "feedback": "Correct! csv.DictReader maps each row to a dictionary using the header as keys."
+      },
+      {
+        "answer": "csv.writer",
+        "correct": false,
+        "feedback": "Incorrect. csv.DictReader maps each row to a dictionary using column headers as keys."
+      },
+      {
+        "answer": "csv.DictWriter",
+        "correct": false,
+        "feedback": "Incorrect. csv.DictReader maps each row to a dictionary using column headers as keys."
+      }
+    ]
+  },
+  {
+    "question": "What parameter should you use when writing CSV files to avoid extra blank lines?",
+    "type": "many_choice",
+    "answers": [
+      {
+        "answer": "newline=''",
+        "correct": true,
+        "feedback": "Correct! Use newline='' to prevent extra blank lines in CSV files."
+      },
+      {
+        "answer": "newline='\\n'",
+        "correct": false,
+        "feedback": "Incorrect. Use newline='' parameter when opening files for writing CSV data."
+      },
+      {
+        "answer": "separator=''",
+        "correct": false,
+        "feedback": "Incorrect. Use newline='' parameter when opening files for writing CSV data."
+      },
+      {
+        "answer": "blank_lines=False",
+        "correct": false,
+        "feedback": "Incorrect. Use newline='' parameter when opening files for writing CSV data."
+      }
+    ]
+  }
+]

@@ -1,0 +1,132 @@
+[
+  {
+    "question": "What keyword is used to define a class in Python?",
+    "type": "many_choice",
+    "answers": [
+      {
+        "answer": "class",
+        "correct": true,
+        "feedback": "Correct! The 'class' keyword is used to define a class in Python."
+      },
+      {
+        "answer": "def",
+        "correct": false,
+        "feedback": "Incorrect. Use the 'class' keyword to define a class in Python."
+      },
+      {
+        "answer": "object",
+        "correct": false,
+        "feedback": "Incorrect. Use the 'class' keyword to define a class in Python."
+      },
+      {
+        "answer": "new",
+        "correct": false,
+        "feedback": "Incorrect. Use the 'class' keyword to define a class in Python."
+      }
+    ]
+  },
+  {
+    "question": "What is the special method used to initialize a new instance of a class?",
+    "type": "many_choice",
+    "answers": [
+      {
+        "answer": "__init__",
+        "correct": true,
+        "feedback": "Correct! __init__ is the constructor method that initializes new instances."
+      },
+      {
+        "answer": "__new__",
+        "correct": false,
+        "feedback": "Incorrect. __init__ is the constructor method used to initialize new instances."
+      },
+      {
+        "answer": "__create__",
+        "correct": false,
+        "feedback": "Incorrect. __init__ is the constructor method used to initialize new instances."
+      },
+      {
+        "answer": "__start__",
+        "correct": false,
+        "feedback": "Incorrect. __init__ is the constructor method used to initialize new instances."
+      }
+    ]
+  },
+  {
+    "question": "What does the __str__ method define?",
+    "type": "many_choice",
+    "answers": [
+      {
+        "answer": "How to create the object",
+        "correct": false,
+        "feedback": "Incorrect. __str__ defines how the object appears when converted to a string or printed."
+      },
+      {
+        "answer": "How to print the object",
+        "correct": true,
+        "feedback": "Correct! __str__ defines the string representation when the object is printed."
+      },
+      {
+        "answer": "How to compare objects",
+        "correct": false,
+        "feedback": "Incorrect. __str__ defines how the object appears when converted to a string or printed."
+      },
+      {
+        "answer": "How to delete the object",
+        "correct": false,
+        "feedback": "Incorrect. __str__ defines how the object appears when converted to a string or printed."
+      }
+    ]
+  },
+  {
+    "question": "What is inheritance in object-oriented programming?",
+    "type": "many_choice",
+    "answers": [
+      {
+        "answer": "Creating multiple objects",
+        "correct": false,
+        "feedback": "Incorrect. Inheritance is when a class inherits methods and properties from a parent class."
+      },
+      {
+        "answer": "A class receiving methods from another class",
+        "correct": true,
+        "feedback": "Correct! Inheritance allows a class to inherit methods and properties from a parent class."
+      },
+      {
+        "answer": "Deleting unused classes",
+        "correct": false,
+        "feedback": "Incorrect. Inheritance is when a class inherits methods and properties from a parent class."
+      },
+      {
+        "answer": "Copying class attributes",
+        "correct": false,
+        "feedback": "Incorrect. Inheritance is when a class inherits methods and properties from a parent class."
+      }
+    ]
+  },
+  {
+    "question": "What are dunder methods?",
+    "type": "many_choice",
+    "answers": [
+      {
+        "answer": "Methods with single underscores",
+        "correct": false,
+        "feedback": "Incorrect. Dunder methods are special methods with double underscores like __init__."
+      },
+      {
+        "answer": "Methods with double underscores",
+        "correct": true,
+        "feedback": "Correct! Dunder methods (double underscore) are special methods like __init__ and __str__."
+      },
+      {
+        "answer": "Private methods",
+        "correct": false,
+        "feedback": "Incorrect. Dunder methods are special methods with double underscores like __init__."
+      },
+      {
+        "answer": "Class methods",
+        "correct": false,
+        "feedback": "Incorrect. Dunder methods are special methods with double underscores like __init__."
+      }
+    ]
+  }
+]

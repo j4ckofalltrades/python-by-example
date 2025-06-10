@@ -1,0 +1,132 @@
+[
+  {
+    "question": "What does range(5) generate?",
+    "type": "many_choice",
+    "answers": [
+      {
+        "answer": "Numbers 1 to 5",
+        "correct": false,
+        "feedback": "Incorrect. range(5) generates numbers 0, 1, 2, 3, 4 (not including 5)."
+      },
+      {
+        "answer": "Numbers 0 to 5",
+        "correct": false,
+        "feedback": "Incorrect. range(5) generates numbers 0, 1, 2, 3, 4 (not including 5)."
+      },
+      {
+        "answer": "Numbers 0 to 4",
+        "correct": true,
+        "feedback": "Correct! range(5) generates numbers from 0 up to (but not including) 5."
+      },
+      {
+        "answer": "Numbers 1 to 4",
+        "correct": false,
+        "feedback": "Incorrect. range(5) generates numbers 0, 1, 2, 3, 4 (not including 5)."
+      }
+    ]
+  },
+  {
+    "question": "What does enumerate() function return when looping over a list?",
+    "type": "many_choice",
+    "answers": [
+      {
+        "answer": "Only the values",
+        "correct": false,
+        "feedback": "Incorrect. enumerate() returns both the index and value for each item in the list."
+      },
+      {
+        "answer": "Only the indices",
+        "correct": false,
+        "feedback": "Incorrect. enumerate() returns both the index and value for each item in the list."
+      },
+      {
+        "answer": "Both index and value",
+        "correct": true,
+        "feedback": "Correct! enumerate() returns both the index and value for each item."
+      },
+      {
+        "answer": "The length of the list",
+        "correct": false,
+        "feedback": "Incorrect. enumerate() returns both the index and value for each item in the list."
+      }
+    ]
+  },
+  {
+    "question": "What is the syntax for a basic list comprehension?",
+    "type": "many_choice",
+    "answers": [
+      {
+        "answer": "[expression for item in iterable]",
+        "correct": true,
+        "feedback": "Correct! List comprehensions use square brackets []."
+      },
+      {
+        "answer": "{expression for item in iterable}",
+        "correct": false,
+        "feedback": "Incorrect. List comprehensions use square brackets: [expression for item in iterable]"
+      },
+      {
+        "answer": "(expression for item in iterable)",
+        "correct": false,
+        "feedback": "Incorrect. List comprehensions use square brackets: [expression for item in iterable]"
+      },
+      {
+        "answer": "expression for item in iterable",
+        "correct": false,
+        "feedback": "Incorrect. List comprehensions use square brackets: [expression for item in iterable]"
+      }
+    ]
+  },
+  {
+    "question": "What does range(2, 8, 2) generate?",
+    "type": "many_choice",
+    "answers": [
+      {
+        "answer": "2, 4, 6",
+        "correct": true,
+        "feedback": "Correct! range(2, 8, 2) starts at 2, goes up to (but not including) 8, with step size 2."
+      },
+      {
+        "answer": "2, 4, 6, 8",
+        "correct": false,
+        "feedback": "Incorrect. range(2, 8, 2) generates 2, 4, 6 (starting at 2, step 2, stopping before 8)."
+      },
+      {
+        "answer": "2, 3, 4, 5, 6, 7",
+        "correct": false,
+        "feedback": "Incorrect. range(2, 8, 2) generates 2, 4, 6 (starting at 2, step 2, stopping before 8)."
+      },
+      {
+        "answer": "4, 6, 8",
+        "correct": false,
+        "feedback": "Incorrect. range(2, 8, 2) generates 2, 4, 6 (starting at 2, step 2, stopping before 8)."
+      }
+    ]
+  },
+  {
+    "question": "Complete this while loop condition: x = 0; while ___: print(x); x += 1",
+    "type": "many_choice",
+    "answers": [
+      {
+        "answer": "x < 5",
+        "correct": true,
+        "feedback": "Correct! This condition will run the loop while x is less than 5."
+      },
+      {
+        "answer": "x <= 4",
+        "correct": true,
+        "feedback": "Also correct! This condition will run the loop while x is less than or equal to 4."
+      },
+      {
+        "answer": "x > 5",
+        "correct": false,
+        "feedback": "Incorrect. A while loop needs a condition that becomes False to stop the loop."
+      },
+      {
+        "answer": "x == 5",
+        "correct": false,
+        "feedback": "Incorrect. A while loop needs a condition that becomes False to stop the loop."
+      }
+    ]
+  }
+]

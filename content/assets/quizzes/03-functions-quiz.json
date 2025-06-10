@@ -1,0 +1,132 @@
+[
+  {
+    "question": "What keyword is used to define a function in Python?",
+    "type": "many_choice",
+    "answers": [
+      {
+        "answer": "def",
+        "correct": true,
+        "feedback": "Correct! The 'def' keyword is used to define functions."
+      },
+      {
+        "answer": "function",
+        "correct": false,
+        "feedback": "Incorrect. Use 'def' to define a function in Python."
+      },
+      {
+        "answer": "func",
+        "correct": false,
+        "feedback": "Incorrect. Use 'def' to define a function in Python."
+      },
+      {
+        "answer": "define",
+        "correct": false,
+        "feedback": "Incorrect. Use 'def' to define a function in Python."
+      }
+    ]
+  },
+  {
+    "question": "What keyword is used to return a value from a function?",
+    "type": "many_choice",
+    "answers": [
+      {
+        "answer": "return",
+        "correct": true,
+        "feedback": "Correct! The 'return' keyword sends a value back to the caller."
+      },
+      {
+        "answer": "output",
+        "correct": false,
+        "feedback": "Incorrect. Use 'return' to send a value back from a function."
+      },
+      {
+        "answer": "send",
+        "correct": false,
+        "feedback": "Incorrect. Use 'return' to send a value back from a function."
+      },
+      {
+        "answer": "give",
+        "correct": false,
+        "feedback": "Incorrect. Use 'return' to send a value back from a function."
+      }
+    ]
+  },
+  {
+    "question": "In the function call add(x=5, y=6), what type of arguments are being used?",
+    "type": "many_choice",
+    "answers": [
+      {
+        "answer": "Positional arguments",
+        "correct": false,
+        "feedback": "Incorrect. These are keyword arguments because they use parameter names (x=5, y=6)."
+      },
+      {
+        "answer": "Keyword arguments",
+        "correct": true,
+        "feedback": "Correct! These are keyword arguments because they specify parameter names."
+      },
+      {
+        "answer": "Default arguments",
+        "correct": false,
+        "feedback": "Incorrect. These are keyword arguments because they use parameter names (x=5, y=6)."
+      },
+      {
+        "answer": "Variable arguments",
+        "correct": false,
+        "feedback": "Incorrect. These are keyword arguments because they use parameter names (x=5, y=6)."
+      }
+    ]
+  },
+  {
+    "question": "Can positional and keyword arguments be mixed in a function call?",
+    "type": "many_choice",
+    "answers": [
+      {
+        "answer": "Yes, but positional must come first",
+        "correct": true,
+        "feedback": "Correct! You can mix them, but positional arguments must come before keyword arguments."
+      },
+      {
+        "answer": "Yes, but keyword must come first",
+        "correct": false,
+        "feedback": "Incorrect. You can mix them, but positional arguments must come first."
+      },
+      {
+        "answer": "No, they cannot be mixed",
+        "correct": false,
+        "feedback": "Incorrect. You can mix them, but positional arguments must come first."
+      },
+      {
+        "answer": "Only in Python 3",
+        "correct": false,
+        "feedback": "Incorrect. You can mix them, but positional arguments must come first."
+      }
+    ]
+  },
+  {
+    "question": "What happens if a function doesn't have a return statement?",
+    "type": "many_choice",
+    "answers": [
+      {
+        "answer": "It returns None",
+        "correct": true,
+        "feedback": "Correct! Functions without a return statement automatically return None."
+      },
+      {
+        "answer": "It returns 0",
+        "correct": false,
+        "feedback": "Incorrect. Functions without a return statement automatically return None."
+      },
+      {
+        "answer": "It returns an empty string",
+        "correct": false,
+        "feedback": "Incorrect. Functions without a return statement automatically return None."
+      },
+      {
+        "answer": "It causes an error",
+        "correct": false,
+        "feedback": "Incorrect. Functions without a return statement automatically return None."
+      }
+    ]
+  }
+]
