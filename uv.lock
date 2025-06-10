@@ -707,6 +707,15 @@ wheels = [
 ]
 
 [[package]]
+name = "jupyterquiz"
+version = "2.9.6.2"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/aa/be/3b7dd52a6642a3412f2e9fc8bd6793626e6c05b78e5bc1e7a8e7f9c74d74/jupyterquiz-2.9.6.2.tar.gz", hash = "sha256:c91b00a4a697dcce0b73e144c62068539ebddb565380e06cdcdfc94920941a31", size = 1262386, upload-time = "2025-05-12T20:48:16.318Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/f7/5a/488f492b49b712ca38326e12c78d0d48ab6be682a2989ce533f0f2c4dfd2/jupyterquiz-2.9.6.2-py2.py3-none-any.whl", hash = "sha256:f60f358c809d06a38c423c804740c1113c8840e130227aef50694a9201474bef", size = 25782, upload-time = "2025-05-12T20:48:14.176Z" },
+]
+
+[[package]]
 name = "markupsafe"
 version = "3.0.2"
 source = { registry = "https://pypi.org/simple" }
@@ -996,6 +1005,7 @@ dependencies = [
     { name = "jupyterlite-core" },
     { name = "jupyterlite-javascript-kernel" },
     { name = "jupyterlite-pyodide-kernel" },
+    { name = "jupyterquiz" },
     { name = "notebook" },
 ]
 
@@ -1007,6 +1017,7 @@ requires-dist = [
     { name = "jupyterlite-core", specifier = "==0.5.1" },
     { name = "jupyterlite-javascript-kernel", specifier = "==0.3.0" },
     { name = "jupyterlite-pyodide-kernel", specifier = "==0.5.2" },
+    { name = "jupyterquiz", specifier = "==2.9.6.2" },
     { name = "notebook", specifier = "==7.4.1" },
 ]
 
