@@ -5,7 +5,7 @@
 
 Try it in your browser with JupyterLite: [![lite-badge](https://jupyterlite.rtfd.io/en/latest/_static/badge.svg)](https://jduabe.dev/python-by-example)
 
-An interactive site that teaches Python to beginners using annotated and runnable code examples, powered by [JupyterLite](https://jupyterlite.readthedocs.io/en/stable/).
+An interactive site that aims to teach Python with annotated and runnable code examples, powered by [JupyterLite](https://jupyterlite.readthedocs.io/en/stable/).
 
 ## Contents
 
