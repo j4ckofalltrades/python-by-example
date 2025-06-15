@@ -1,0 +1,24 @@
+{
+  "@jupyterlab/notebook-extension:panel": {
+    "toolbar": [
+      {
+        "name": "download",
+        "label": "Download",
+        "args": {},
+        "command": "docmanager:download",
+        "icon": "ui-components:download",
+        "rank": 50
+      }
+    ]
+  },
+  "@jupyterlab/notebook-extension:tracker": {
+    "codeCellConfig": {
+      "lineNumbers": true
+    }
+  },
+  "@jupyterlab/codemirror-extension:plugin": {
+    "defaultConfig": {
+      "highlightActiveLine": true
+    }
+  }
+}
