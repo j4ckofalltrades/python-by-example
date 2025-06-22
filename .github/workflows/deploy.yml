@@ -22,9 +22,7 @@ jobs:
         run: uv sync --locked
 
       - name: Build the JupyterLite site
-        run: |
-          cp README.md content
-          uv run jupyter lite build --contents content --output-dir dist
+        run: uv run jupyter lite build --contents content --output-dir dist
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
