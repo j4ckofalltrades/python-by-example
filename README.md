@@ -11,13 +11,17 @@ An interactive site that aims to teach Python with annotated and runnable code e
 
 - [01 Intro](https://jduabe.dev/python-by-example/notebooks/index.html?path=01+Intro.ipynb)
 - [02 Types, Variables, User input](https://jduabe.dev/python-by-example/notebooks/index.html?path=02+Types%2C+Variables%2C+User+input.ipynb)
-- [03 Functions](https://jduabe.dev/python-by-example/notebooks/index.html?path=03+Functions.ipynb)
-- [04 Conditionals](https://jduabe.dev/python-by-example/notebooks/index.html?path=04+Conditionals.ipynb)
-- [05 Lists](https://jduabe.dev/python-by-example/notebooks/index.html?path=05+Lists.ipynb)
-- [06 Dictionaries](https://jduabe.dev/python-by-example/notebooks/index.html?path=06+Dictionaries.ipynb)
-- [07 Loops](https://jduabe.dev/python-by-example/notebooks/index.html?path=07+Loops.ipynb)
-- [08 IO](https://jduabe.dev/python-by-example/notebooks/index.html?path=08+IO.ipynb)
-- [09 Classes](https://jduabe.dev/python-by-example/notebooks/index.html?path=09+Classes.ipynb)
+- [03 Conditionals](https://jduabe.dev/python-by-example/notebooks/index.html?path=03+Conditionals.ipynb)
+- [04 Lists](https://jduabe.dev/python-by-example/notebooks/index.html?path=04+Lists.ipynb)
+- [05 Tuples](https://jduabe.dev/python-by-example/notebooks/index.html?path=05+Tuples.ipynb)
+- [06 Loops](https://jduabe.dev/python-by-example/notebooks/index.html?path=06+Loops.ipynb)
+- [07 Dictionaries](https://jduabe.dev/python-by-example/notebooks/index.html?path=07+Dictionaries.ipynb)
+- [08 Sets](https://jduabe.dev/python-by-example/notebooks/index.html?path=08+Sets.ipynb)
+- [09 Comprehensions](https://jduabe.dev/python-by-example/notebooks/index.html?path=09+Comprehensions.ipynb)
+- [10 Functions](https://jduabe.dev/python-by-example/notebooks/index.html?path=10+Functions.ipynb)
+- [11 IO](https://jduabe.dev/python-by-example/notebooks/index.html?path=11+IO.ipynb)
+- [12 Error Handling](https://jduabe.dev/python-by-example/notebooks/index.html?path=12+Error+Handling.ipynb)
+- [13 Classes](https://jduabe.dev/python-by-example/notebooks/index.html?path=13+Classes.ipynb)
 
 ## Running locally
 
